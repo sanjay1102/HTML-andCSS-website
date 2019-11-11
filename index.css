@@ -1,0 +1,266 @@
+body{
+            
+    padding: 0;
+    margin: 0;
+}
+#landing_section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(40, 197, 132);
+    padding-left: 12%;
+    padding-right: 12%;
+    box-sizing:border-box ;
+
+    overflow: hidden;
+}
+#topmenu-list{
+    list-style: none;
+    color: #fff;
+
+    display: block;
+}
+.menu-item{
+    display: inline;
+    margin-right: 18px;
+}
+#topbar{
+    display: flex;
+    justify-content: space-between;
+}
+#landing-section-text{
+    text-align: end;
+    padding-top: 150px;
+}
+#landing_section_heading{
+    font-family:'Dr Sugiyama', cursive;
+    color: rgb(255, 255,255);
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0;
+
+    text-align: end;
+}
+#landing_section_desc{
+    font-family: Lato, sans-serif;
+    font-size: 300;
+    color: rgb(255, 255, 255);
+    text-align: end;
+}
+#btn-download{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+#btn-download:hover{
+    background-color: white;
+    color: black;
+}
+.menu-item:hover{
+    background-color:transparent;
+    color: black;
+    cursor: pointer;
+
+    
+}
+/*second section start*/
+#second-section{
+    height: 90vh;
+    widows: 100%;
+    background-color: rgb(244, 244, 244);
+
+    padding: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+#second-section-text{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.section-heading{
+    font-size: 42px;
+    color: rgb(84, 84, 84); 
+    font-weight: 300;
+    font-family: Lato, sans-serif;
+    margin: 0;
+
+}
+.section-desc{
+    color: rgb(126, 126, 126);
+    font: 16px;
+    font-family: Lato, sans-serif;
+    line-height: 1.4285;
+    margin-top: 24px;
+}
+#seconde-section-quote{
+    font-size: 16.5px;
+    color: rgb(126, 126, 126);
+    font-style: italic;
+    line-height: 1.4285;
+    border-left: 8px solid  rgb(40, 197, 132) ;
+     
+    margin: 0px 0px 20px;
+    padding: 0px 20px;
+}
+.btn-hello{
+    background-color: transparent;
+    color: rgb(40, 197, 132) ;
+    border: 1px solid rgb(40, 197, 132);
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+.btn-hello:hover{
+    background-color:  rgb(40, 197, 132);
+    color: #fff;
+}
+#second-section-image{
+    display: inline-block;
+    width: 48%;
+    text-align: end;
+}
+/*second section end*/
+
+/*Third Section Start*/
+#third-section{
+    width: 100%;
+    height: 90vh;
+    padding: 3%;
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#third-section-text{
+    display: inline-block;
+    width: 48%;
+    
+    
+    
+}
+#third-section-image{
+    display: inline-block;
+    width: 50%;
+    top: 160px;
+    left: -220px;
+    
+
+    position: relative;
+}
+#section-three-image{
+    position: absolute;
+    top: -120px;
+    left: -250px;
+    
+}
+/*Third Section End*/
+
+/*last section start*/
+#last-section{
+    width: 100%;
+    background-color: rgb(255, 122, 122);
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#last-section-heading{
+    font-family: Lato, sans-serif;
+    color:#fff;
+    margin: 0;
+    font-size: 42px;
+    font-weight: 300;
+}
+.btn-learnmore{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 12px 24px;
+}
+.btn-learnmore:hover{
+    background-color: #fff;
+    color: rgb(255, 122, 122);
+}
+/*last section end*/
+
+/*Footer start*/
+#footer{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+.footer-link{
+    color: rgb(84, 84, 84);
+    width: 36px;
+    border: 2px solid rgb(84, 84, 84);
+    border-radius: 50%;
+    margin-right: 16px;
+    padding: 16px;
+    background-color: rgb(148, 147, 147);
+}
+.footer-link:hover{
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+/*footer end*/
+
+@media(max-width: 720px){
+    #landing-section-text{
+        padding-top: 40px;
+    }
+    #topmenu-list{
+        text-align: right;
+        
+    }
+    #landing_section_heading{
+        font-size: 48px;
+    }
+    #landing_section_desc{
+        font-size: 18px;
+    }
+    #btn-download{
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-top: 16px;
+        margin-bottom: 36px;
+    }
+    #second-section{
+        min-height: 90vh;
+        height: auto;
+    }
+    #second-section-text{
+        width: 100%;
+    }
+    #second-section-image{
+        display: none;
+    }
+
+    #third-section-text{
+        width: 100%;
+    }
+    #third-section-image{
+        display: none;
+    }
+    
+    #last-section{
+       padding: 60px 0px;
+    }
+    .footer-link{
+        margin: 10px;
+    }
+}
